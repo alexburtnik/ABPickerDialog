@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/alexburtnik/ABPickerDialog.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Source/**/*.{swift, xib}'
+  s.source_files = 'Source/**/*.swift'
+  s.resources = ['Source/**/*.xib']
  
 end
