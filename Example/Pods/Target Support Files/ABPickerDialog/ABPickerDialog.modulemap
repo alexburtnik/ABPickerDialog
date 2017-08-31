@@ -1,0 +1,6 @@
+framework module ABPickerDialog {
+  umbrella header "ABPickerDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

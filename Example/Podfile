@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'ABPickerDialog_Example' do
+  pod 'ABPickerDialog', :path => '../'
+  
+end

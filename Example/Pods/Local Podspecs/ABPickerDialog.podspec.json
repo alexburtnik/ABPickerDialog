@@ -1,0 +1,27 @@
+{
+  "name": "ABPickerDialog",
+  "version": "0.1.2",
+  "summary": "A short description of ABPickerDialog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sv/ABPickerDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alexburtnik": "alexburtnik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alexburtnik/ABPickerDialog.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ABPickerDialog/Classes/**/*",
+  "resource_bundles": {
+    "ABPickerDialog": [
+      "ABPickerDialog/Classes/**/*.xib"
+    ]
+  }
+}

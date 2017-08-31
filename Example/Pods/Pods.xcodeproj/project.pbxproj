@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085B18B94C01107E058562D36B20CABA /* PickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D637FC701A5BC042CE55A268B4AB8 /* PickerDialog.swift */; };
+		1C986DC6F2DE34DFC301E780024BAA64 /* PickerDialog.xib in Sources */ = {isa = PBXBuildFile; fileRef = C9C93FDF36F6B7E0C6284A312F2CF6E9 /* PickerDialog.xib */; };
+		2835EE8C4818F226F9B90BA35E67F350 /* Pods-ABPickerDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2EE0CC8E7A470846E5641B0C2BCCBA /* Pods-ABPickerDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E64BDD78B7F6F324A63FBBAF08C797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2E570082B620D8D17F4011874F035F83 /* YearPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15543895C2BFF75624D148447B8B9DFB /* YearPickerDialog.swift */; };
+		343B70B8607B69652EBD62124D83CCBF /* ABPickerDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 402E8B24292E6BC118A71EE42C5BC6DE /* ABPickerDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6C6D05C32DF5E263F8E1DCF05DEF12 /* ValuePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56094461DD30C2FF7D6C12CDCC3EE635 /* ValuePickerDialog.swift */; };
+		64EE664AFB2CEE5C1D7B17AB622C8858 /* ABPickerDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E575B37548AAFFA57D1C1EFFB8907A /* ABPickerDialog-dummy.m */; };
+		77FDB98085B58AC1901706E5FE8E0C54 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED439BB4647E967FBCB234546596FC6 /* DatePickerDialog.swift */; };
+		8ABC90426B91C6F087D6CD8F9220F4FA /* PickerDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C93FDF36F6B7E0C6284A312F2CF6E9 /* PickerDialog.xib */; };
+		8BAD547AC8300388CA0B31D4769F91DF /* ABPickerDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57D6D85D96405E2A0C530A6ECA838F3F /* ABPickerDialog.bundle */; };
+		B7768CCB81FFFA46ABE80D4D904C99D5 /* Pods-ABPickerDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246393294C547B3D8DA6DDF3B597AA11 /* Pods-ABPickerDialog_Example-dummy.m */; };
+		BB3568C34552EDC50707D5C62F1B2976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE7D17592166F7074A8694D2A6E75F04 /* CountryPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0735DA8CC1B25231ADA48AEEFF7625B /* CountryPickerDialog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		477A618A1D9092E95798DD3D0E7AFE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEFC77B88686BE79AA9F325ACC2B208;
+			remoteInfo = "ABPickerDialog-ABPickerDialog";
+		};
+		D217FCD3B0AA8A2B9AD83E7B1FE27A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293F97A96C88A0256E0334111A318A29;
+			remoteInfo = ABPickerDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011B1DF108F77B9BF015A6CDE5016D3F /* Pods-ABPickerDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPickerDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		15543895C2BFF75624D148447B8B9DFB /* YearPickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearPickerDialog.swift; path = ABPickerDialog/Classes/YearPickerDialog.swift; sourceTree = "<group>"; };
+		1E0063468F4AD4C3B75F229034B50A72 /* Pods_ABPickerDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABPickerDialog_Example.framework; path = "Pods-ABPickerDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A3E231DF58403700762A5DB2C6944B /* Pods-ABPickerDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPickerDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		23E575B37548AAFFA57D1C1EFFB8907A /* ABPickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABPickerDialog-dummy.m"; sourceTree = "<group>"; };
+		246393294C547B3D8DA6DDF3B597AA11 /* Pods-ABPickerDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABPickerDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		36CB0E0F3874E65416878BCCE61E689A /* ResourceBundle-ABPickerDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABPickerDialog-Info.plist"; sourceTree = "<group>"; };
+		38137ACA5F2CCF953BBB7D1794C98612 /* Pods-ABPickerDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABPickerDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		402E8B24292E6BC118A71EE42C5BC6DE /* ABPickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPickerDialog-umbrella.h"; sourceTree = "<group>"; };
+		4BA51C71D2C0DABB04488B6F8F5F8642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED439BB4647E967FBCB234546596FC6 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = ABPickerDialog/Classes/DatePickerDialog.swift; sourceTree = "<group>"; };
+		56094461DD30C2FF7D6C12CDCC3EE635 /* ValuePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValuePickerDialog.swift; path = ABPickerDialog/Classes/ValuePickerDialog.swift; sourceTree = "<group>"; };
+		57D6D85D96405E2A0C530A6ECA838F3F /* ABPickerDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ABPickerDialog.bundle; path = ABPickerDialog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2D637FC701A5BC042CE55A268B4AB8 /* PickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerDialog.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABPickerDialog.xcconfig; sourceTree = "<group>"; };
+		853731877928218C764D59534F046C25 /* Pods-ABPickerDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABPickerDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D1D11BD6CDD55D1B6DFB5EEB0DB6BDB /* ABPickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ABPickerDialog.modulemap; sourceTree = "<group>"; };
+		A8A869568D2B947434BE9044C1C50805 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0735DA8CC1B25231ADA48AEEFF7625B /* CountryPickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerDialog.swift; path = ABPickerDialog/Classes/CountryPickerDialog.swift; sourceTree = "<group>"; };
+		B6FB1263319ADB55E06316353DC3B425 /* ABPickerDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPickerDialog-prefix.pch"; sourceTree = "<group>"; };
+		BB3A2ECB43810B6078495E7F605267FD /* Pods-ABPickerDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABPickerDialog_Example.modulemap"; sourceTree = "<group>"; };
+		BC2EE0CC8E7A470846E5641B0C2BCCBA /* Pods-ABPickerDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABPickerDialog_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7B1AF7320D2192C4D99F08937DB405E /* Pods-ABPickerDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPickerDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C9C93FDF36F6B7E0C6284A312F2CF6E9 /* PickerDialog.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PickerDialog.xib; sourceTree = "<group>"; };
+		CC2DBBC5BF6509FE0C06BDFC2966AE83 /* Pods-ABPickerDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPickerDialog_Example-resources.sh"; sourceTree = "<group>"; };
+		E4C569FD16D812358B9780A391608FC6 /* ABPickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABPickerDialog.framework; path = ABPickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0DDD5D9B298B9351CFDD537C138163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E64BDD78B7F6F324A63FBBAF08C797 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941F46EEFC1B715F9DF8629AF15D796D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3568C34552EDC50707D5C62F1B2976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF7A17960E0C0EDE7795585652667C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D30EA4D69A470C8FDF8CA5E7C03E403 /* Pods-ABPickerDialog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A8A869568D2B947434BE9044C1C50805 /* Info.plist */,
+				BB3A2ECB43810B6078495E7F605267FD /* Pods-ABPickerDialog_Example.modulemap */,
+				853731877928218C764D59534F046C25 /* Pods-ABPickerDialog_Example-acknowledgements.markdown */,
+				38137ACA5F2CCF953BBB7D1794C98612 /* Pods-ABPickerDialog_Example-acknowledgements.plist */,
+				246393294C547B3D8DA6DDF3B597AA11 /* Pods-ABPickerDialog_Example-dummy.m */,
+				011B1DF108F77B9BF015A6CDE5016D3F /* Pods-ABPickerDialog_Example-frameworks.sh */,
+				CC2DBBC5BF6509FE0C06BDFC2966AE83 /* Pods-ABPickerDialog_Example-resources.sh */,
+				BC2EE0CC8E7A470846E5641B0C2BCCBA /* Pods-ABPickerDialog_Example-umbrella.h */,
+				21A3E231DF58403700762A5DB2C6944B /* Pods-ABPickerDialog_Example.debug.xcconfig */,
+				C7B1AF7320D2192C4D99F08937DB405E /* Pods-ABPickerDialog_Example.release.xcconfig */,
+			);
+			name = "Pods-ABPickerDialog_Example";
+			path = "Target Support Files/Pods-ABPickerDialog_Example";
+			sourceTree = "<group>";
+		};
+		2DC688C590631CF3BF292DBB59B4EB9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EACF0BE4ECB746EF3C7613C5A16D924 /* ABPickerDialog */ = {
+			isa = PBXGroup;
+			children = (
+				B0735DA8CC1B25231ADA48AEEFF7625B /* CountryPickerDialog.swift */,
+				4ED439BB4647E967FBCB234546596FC6 /* DatePickerDialog.swift */,
+				56094461DD30C2FF7D6C12CDCC3EE635 /* ValuePickerDialog.swift */,
+				15543895C2BFF75624D148447B8B9DFB /* YearPickerDialog.swift */,
+				79E2CB59AF8F6B1373F79637FCB68A49 /* Base */,
+				2DC688C590631CF3BF292DBB59B4EB9D /* Resources */,
+				A6152AB527E3C61A3BF6C6A97755E2C8 /* Support Files */,
+			);
+			name = ABPickerDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		42B88406B7BC3B8C5F06A2C648CBB375 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D30EA4D69A470C8FDF8CA5E7C03E403 /* Pods-ABPickerDialog_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79E2CB59AF8F6B1373F79637FCB68A49 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5D2D637FC701A5BC042CE55A268B4AB8 /* PickerDialog.swift */,
+				C9C93FDF36F6B7E0C6284A312F2CF6E9 /* PickerDialog.xib */,
+			);
+			name = Base;
+			path = ABPickerDialog/Classes/Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EBF055A2317295A268049208EB9B1273 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BAEBCF786484C241C8953B1E056CB776 /* Products */,
+				42B88406B7BC3B8C5F06A2C648CBB375 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6152AB527E3C61A3BF6C6A97755E2C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D11BD6CDD55D1B6DFB5EEB0DB6BDB /* ABPickerDialog.modulemap */,
+				77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */,
+				23E575B37548AAFFA57D1C1EFFB8907A /* ABPickerDialog-dummy.m */,
+				B6FB1263319ADB55E06316353DC3B425 /* ABPickerDialog-prefix.pch */,
+				402E8B24292E6BC118A71EE42C5BC6DE /* ABPickerDialog-umbrella.h */,
+				4BA51C71D2C0DABB04488B6F8F5F8642 /* Info.plist */,
+				36CB0E0F3874E65416878BCCE61E689A /* ResourceBundle-ABPickerDialog-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ABPickerDialog";
+			sourceTree = "<group>";
+		};
+		BAEBCF786484C241C8953B1E056CB776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D6D85D96405E2A0C530A6ECA838F3F /* ABPickerDialog.bundle */,
+				E4C569FD16D812358B9780A391608FC6 /* ABPickerDialog.framework */,
+				1E0063468F4AD4C3B75F229034B50A72 /* Pods_ABPickerDialog_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBF055A2317295A268049208EB9B1273 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EACF0BE4ECB746EF3C7613C5A16D924 /* ABPickerDialog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CB453380B4E7B181ECE97BC2256C144 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343B70B8607B69652EBD62124D83CCBF /* ABPickerDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDE938AD6B5BD60C1A2D55965DF5888 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835EE8C4818F226F9B90BA35E67F350 /* Pods-ABPickerDialog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FEFC77B88686BE79AA9F325ACC2B208 /* ABPickerDialog-ABPickerDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389493BA1AC45A547498229596053844 /* Build configuration list for PBXNativeTarget "ABPickerDialog-ABPickerDialog" */;
+			buildPhases = (
+				098F10423512F71A9F1F97BC4CB241C7 /* Sources */,
+				EEEF7A17960E0C0EDE7795585652667C /* Frameworks */,
+				49E8F568B9F016282E6C709F4A560732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABPickerDialog-ABPickerDialog";
+			productName = "ABPickerDialog-ABPickerDialog";
+			productReference = 57D6D85D96405E2A0C530A6ECA838F3F /* ABPickerDialog.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		293F97A96C88A0256E0334111A318A29 /* ABPickerDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69246ABFB22AC1934DCB06BF820C0F8F /* Build configuration list for PBXNativeTarget "ABPickerDialog" */;
+			buildPhases = (
+				6D60B4457A55E922EE32AA0D296C528A /* Sources */,
+				941F46EEFC1B715F9DF8629AF15D796D /* Frameworks */,
+				AFE2E7B05052CDDE3DBCE3708667F27F /* Resources */,
+				0CB453380B4E7B181ECE97BC2256C144 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F06E6CA8496E124C82CDE4CF6EC748 /* PBXTargetDependency */,
+			);
+			name = ABPickerDialog;
+			productName = ABPickerDialog;
+			productReference = E4C569FD16D812358B9780A391608FC6 /* ABPickerDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E158961CA27D0846A0B05A7EF90481A3 /* Pods-ABPickerDialog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC5095B0E899FC51879CC1C856DD3E9 /* Build configuration list for PBXNativeTarget "Pods-ABPickerDialog_Example" */;
+			buildPhases = (
+				598A5318F9F82784A5DACD5FDF5CB5F5 /* Sources */,
+				2E0DDD5D9B298B9351CFDD537C138163 /* Frameworks */,
+				9EDE938AD6B5BD60C1A2D55965DF5888 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C79CE062ADAD02DC8014C9F6C1653A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABPickerDialog_Example";
+			productName = "Pods-ABPickerDialog_Example";
+			productReference = 1E0063468F4AD4C3B75F229034B50A72 /* Pods_ABPickerDialog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BAEBCF786484C241C8953B1E056CB776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293F97A96C88A0256E0334111A318A29 /* ABPickerDialog */,
+				1FEFC77B88686BE79AA9F325ACC2B208 /* ABPickerDialog-ABPickerDialog */,
+				E158961CA27D0846A0B05A7EF90481A3 /* Pods-ABPickerDialog_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E8F568B9F016282E6C709F4A560732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABC90426B91C6F087D6CD8F9220F4FA /* PickerDialog.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE2E7B05052CDDE3DBCE3708667F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD547AC8300388CA0B31D4769F91DF /* ABPickerDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098F10423512F71A9F1F97BC4CB241C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A5318F9F82784A5DACD5FDF5CB5F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7768CCB81FFFA46ABE80D4D904C99D5 /* Pods-ABPickerDialog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D60B4457A55E922EE32AA0D296C528A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EE664AFB2CEE5C1D7B17AB622C8858 /* ABPickerDialog-dummy.m in Sources */,
+				DE7D17592166F7074A8694D2A6E75F04 /* CountryPickerDialog.swift in Sources */,
+				77FDB98085B58AC1901706E5FE8E0C54 /* DatePickerDialog.swift in Sources */,
+				085B18B94C01107E058562D36B20CABA /* PickerDialog.swift in Sources */,
+				1C986DC6F2DE34DFC301E780024BAA64 /* PickerDialog.xib in Sources */,
+				5F6C6D05C32DF5E263F8E1DCF05DEF12 /* ValuePickerDialog.swift in Sources */,
+				2E570082B620D8D17F4011874F035F83 /* YearPickerDialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C79CE062ADAD02DC8014C9F6C1653A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABPickerDialog;
+			target = 293F97A96C88A0256E0334111A318A29 /* ABPickerDialog */;
+			targetProxy = D217FCD3B0AA8A2B9AD83E7B1FE27A97 /* PBXContainerItemProxy */;
+		};
+		F1F06E6CA8496E124C82CDE4CF6EC748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ABPickerDialog-ABPickerDialog";
+			target = 1FEFC77B88686BE79AA9F325ACC2B208 /* ABPickerDialog-ABPickerDialog */;
+			targetProxy = 477A618A1D9092E95798DD3D0E7AFE1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0910DA5F3348ECFC923932A7F4955430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABPickerDialog/ABPickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABPickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABPickerDialog/ABPickerDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ABPickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12FE7FC6A77792CC324E4EAE0B732465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A3E231DF58403700762A5DB2C6944B /* Pods-ABPickerDialog_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABPickerDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABPickerDialog_Example/Pods-ABPickerDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ABPickerDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16C8E57602A6721B5A8941494662C68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABPickerDialog/ABPickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABPickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABPickerDialog/ABPickerDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ABPickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23DAE79AFBFF47E7ED6957E09157F1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABPickerDialog";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ABPickerDialog/ResourceBundle-ABPickerDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ABPickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		58C350974DFD60EB1CAB37B92DED1E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B1AF7320D2192C4D99F08937DB405E /* Pods-ABPickerDialog_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABPickerDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABPickerDialog_Example/Pods-ABPickerDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ABPickerDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58F546620A577D57A2545B06EEA77113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E993AB2664F4D844C455BEB24D82EB /* ABPickerDialog.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABPickerDialog";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ABPickerDialog/ResourceBundle-ABPickerDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ABPickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389493BA1AC45A547498229596053844 /* Build configuration list for PBXNativeTarget "ABPickerDialog-ABPickerDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F546620A577D57A2545B06EEA77113 /* Debug */,
+				23DAE79AFBFF47E7ED6957E09157F1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69246ABFB22AC1934DCB06BF820C0F8F /* Build configuration list for PBXNativeTarget "ABPickerDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0910DA5F3348ECFC923932A7F4955430 /* Debug */,
+				16C8E57602A6721B5A8941494662C68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC5095B0E899FC51879CC1C856DD3E9 /* Build configuration list for PBXNativeTarget "Pods-ABPickerDialog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE7FC6A77792CC324E4EAE0B732465 /* Debug */,
+				58C350974DFD60EB1CAB37B92DED1E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
