@@ -12,7 +12,7 @@ public class YearPickerDialog: ValuePickerDialog {
     
     public typealias YearPickerCallback = ( Int? ) -> Void
     
-    func show(
+    public func show(
         title: String? = nil,
         min: Int? = nil,
         max: Int? = nil,

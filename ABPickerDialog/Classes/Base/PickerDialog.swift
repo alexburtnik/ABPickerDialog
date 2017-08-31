@@ -15,17 +15,18 @@ public class PickerDialog: UIView {
     @IBOutlet var dialogView: UIView!
     @IBOutlet var pickerContainerView: UIView!
     @IBOutlet var headerView: UIView!
-    @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var cancelButton: UIButton!
-    @IBOutlet var doneButton: UIButton!
+    
+    @IBOutlet public var titleLabel: UILabel!
+    @IBOutlet public var cancelButton: UIButton!
+    @IBOutlet public var doneButton: UIButton!
 
     @IBOutlet var dialogBottomConstraint: NSLayoutConstraint!
     
-    dynamic var headerColor: UIColor? { didSet { update() } }
-    dynamic var titleFont: UIFont? { didSet { update() } }
-    dynamic var buttonsFont: UIFont? { didSet { update() } }
+    public dynamic var headerColor: UIColor? { didSet { update() } }
+    public dynamic var titleFont: UIFont? { didSet { update() } }
+    public dynamic var buttonsFont: UIFont? { didSet { update() } }
     
-    var showCancelButton:Bool = false
+    public var showCancelButton:Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)

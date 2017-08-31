@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         CountryPickerDialog().show(title: title, currentCode: "us") { code in
             print("picked country with code: \(code)")
         }
-        
     }
 }
 
